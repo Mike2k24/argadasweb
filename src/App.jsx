@@ -9,7 +9,7 @@ import Events from './components/Events'
 import Home from './components/Home'
 import Data from './data.json'
 import Cart from './components/Cart'
-import image from './images/jason-center.png'
+import image from './images/jason-center.jpg'
 
 let coverImage = image
 
