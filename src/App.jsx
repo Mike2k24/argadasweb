@@ -51,7 +51,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home coverImage={coverImage}/>}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/music' element={<Music />}/>
         <Route path='/merch' element={<Merch products = {products} basket={basket} setBasket = {setBasket}/>}/>
