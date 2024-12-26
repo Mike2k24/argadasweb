@@ -1,0 +1,26 @@
+[{
+    "productName" : "Vinal",
+    "price" : "15.99"
+
+},
+{
+    "productName" : "Poster",
+    "price" : "7.99"
+},
+{
+    "productName" : "CD",
+    "price" : "8.99"
+},
+{
+    "productName" : "Hoodie",
+    "price" : "20.00"
+},
+{
+    "productName" : "T-Shirt",
+    "price" : "17.99"
+},
+{
+    "productName" : "Wrist Band",
+    "price" : "5.99"
+}
+]

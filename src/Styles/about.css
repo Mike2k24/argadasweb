@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+.intro-para{
+    font-size: 18pt;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    text-align: center;
+
+}
