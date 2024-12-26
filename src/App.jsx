@@ -10,9 +10,9 @@ import Home from './components/Home'
 import Data from './data.json'
 import Cart from './components/Cart'
 //Testing different methods to upload an image to gh-pages
-import image from './images/jasonCenter.jpg'
+//import image from './images/jasonCenter.jpg'
 
-let bandImage = image
+//let bandImage = image
 //import Images from 'src/images/jason-center.jpg/'
 //Imoport from React Router
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
@@ -51,7 +51,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home bandImage={bandImage}/>}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/music' element={<Music />}/>
         <Route path='/merch' element={<Merch products = {products} basket={basket} setBasket = {setBasket}/>}/>

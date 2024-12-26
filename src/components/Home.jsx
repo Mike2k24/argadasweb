@@ -1,8 +1,8 @@
-export default function Home({bandImage}){
+export default function Home(){
 
     return(
         <div >
-          <img className='the-boys' src={bandImage} alt="ARGADAS Image here" />
+          <img className='the-boys' src="" alt="ARGADAS Image here" />
       </div>
     )
 }
