@@ -9,6 +9,10 @@ import Events from './components/Events'
 import Home from './components/Home'
 import Data from './data.json'
 import Cart from './components/Cart'
+import image from './images/jason-center.png'
+
+let coverImage = image
+
 //import Images from 'src/images/jason-center.jpg/'
 //Imoport from React Router
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
@@ -47,7 +51,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/' element={<Home coverImage={coverImage}/>}/>
         <Route path='/about' element={<About />}/>
         <Route path='/music' element={<Music />}/>
         <Route path='/merch' element={<Merch products = {products} basket={basket} setBasket = {setBasket}/>}/>

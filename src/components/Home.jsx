@@ -1,8 +1,8 @@
-export default function Home(){
+export default function Home({coverImage}){
 
     return(
         <div >
-          <img className='the-boys' src="./images/jason-center.png" alt="ARGADAS Image here" />
+          <img className='the-boys' src={coverImage} alt="ARGADAS Image here" />
       </div>
     )
 }
