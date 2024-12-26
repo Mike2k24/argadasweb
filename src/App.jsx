@@ -16,7 +16,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
  function App() {
   const [products, setProdcuts] = useState(Data)
   const [basket, setBasket] = useState(0)
-//   class item{
+//  Testing: usingg class to create the shoping cart 
+//  class item{
 //     //Defining the properties with constructor
 //     constructor(productName, quantity, price){
 //       this.productName = productName;
