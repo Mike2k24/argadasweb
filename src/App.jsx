@@ -9,10 +9,9 @@ import Events from './components/Events'
 import Home from './components/Home'
 import Data from './data.json'
 import Cart from './components/Cart'
-//Testibng different methods to upload an image to gh-pages
+//Testing different methods to upload an image to gh-pages
 // import image from './images/jasonCenter.jpg'
 
-let coverImage = image
 
 //import Images from 'src/images/jason-center.jpg/'
 //Imoport from React Router
